@@ -2,14 +2,14 @@
 
 export const QuoteGen = () => {
     return (
-        <div> <div class="background"></div>
-            <div class="container">
-                <div class="display">
+        <div> <div className="background"></div>
+            <div className="container">
+                <div className="display">
                     <h1>See Quote Here:</h1>
                     <p> </p>
                 </div>
                 <div>
-                    <button class="quote-btn" type="button">Random Quote</button>
+                    <button className="quote-btn" type="button">Random Quote</button>
                 </div>
 
             </div>
